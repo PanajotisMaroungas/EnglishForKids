@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10057B11C9C670F00373124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10057B01C9C670F00373124 /* AppDelegate.swift */; };
+		D10057B31C9C670F00373124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10057B21C9C670F00373124 /* ViewController.swift */; };
+		D10057B61C9C670F00373124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10057B41C9C670F00373124 /* Main.storyboard */; };
+		D10057B91C9C670F00373124 /* EnglishForKids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D10057B71C9C670F00373124 /* EnglishForKids.xcdatamodeld */; };
+		D10057BB1C9C670F00373124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10057BA1C9C670F00373124 /* Assets.xcassets */; };
+		D10057BE1C9C670F00373124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10057BC1C9C670F00373124 /* LaunchScreen.storyboard */; };
+		D10057C91C9C670F00373124 /* EnglishForKidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10057C81C9C670F00373124 /* EnglishForKidsTests.swift */; };
+		D10057D51C9DDAC400373124 /* EFKGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10057D41C9DDAC400373124 /* EFKGameViewController.swift */; };
+		D10057D81C9EF13200373124 /* EFKConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10057D71C9EF13200373124 /* EFKConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D10057C51C9C670F00373124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10057A51C9C670F00373124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10057AC1C9C670F00373124;
+			remoteInfo = EnglishForKids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D10057AD1C9C670F00373124 /* EnglishForKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishForKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10057B01C9C670F00373124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D10057B21C9C670F00373124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D10057B51C9C670F00373124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D10057B81C9C670F00373124 /* EnglishForKids.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnglishForKids.xcdatamodel; sourceTree = "<group>"; };
+		D10057BA1C9C670F00373124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D10057BD1C9C670F00373124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D10057BF1C9C670F00373124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10057C41C9C670F00373124 /* EnglishForKidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishForKidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10057C81C9C670F00373124 /* EnglishForKidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishForKidsTests.swift; sourceTree = "<group>"; };
+		D10057CA1C9C670F00373124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10057D41C9DDAC400373124 /* EFKGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFKGameViewController.swift; sourceTree = "<group>"; };
+		D10057D71C9EF13200373124 /* EFKConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFKConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10057AA1C9C670F00373124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10057C11C9C670F00373124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10057A41C9C670F00373124 = {
+			isa = PBXGroup;
+			children = (
+				D10057AF1C9C670F00373124 /* EnglishForKids */,
+				D10057C71C9C670F00373124 /* EnglishForKidsTests */,
+				D10057AE1C9C670F00373124 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10057AE1C9C670F00373124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10057AD1C9C670F00373124 /* EnglishForKids.app */,
+				D10057C41C9C670F00373124 /* EnglishForKidsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10057AF1C9C670F00373124 /* EnglishForKids */ = {
+			isa = PBXGroup;
+			children = (
+				D10057D61C9EF11700373124 /* Constants */,
+				D10057D31C9DDA6B00373124 /* Core */,
+				D10057B01C9C670F00373124 /* AppDelegate.swift */,
+				D10057B21C9C670F00373124 /* ViewController.swift */,
+				D10057B41C9C670F00373124 /* Main.storyboard */,
+				D10057BA1C9C670F00373124 /* Assets.xcassets */,
+				D10057BC1C9C670F00373124 /* LaunchScreen.storyboard */,
+				D10057BF1C9C670F00373124 /* Info.plist */,
+				D10057B71C9C670F00373124 /* EnglishForKids.xcdatamodeld */,
+			);
+			path = EnglishForKids;
+			sourceTree = "<group>";
+		};
+		D10057C71C9C670F00373124 /* EnglishForKidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D10057C81C9C670F00373124 /* EnglishForKidsTests.swift */,
+				D10057CA1C9C670F00373124 /* Info.plist */,
+			);
+			path = EnglishForKidsTests;
+			sourceTree = "<group>";
+		};
+		D10057D31C9DDA6B00373124 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D10057D41C9DDAC400373124 /* EFKGameViewController.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D10057D61C9EF11700373124 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D10057D71C9EF13200373124 /* EFKConstants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10057AC1C9C670F00373124 /* EnglishForKids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10057CD1C9C670F00373124 /* Build configuration list for PBXNativeTarget "EnglishForKids" */;
+			buildPhases = (
+				D10057A91C9C670F00373124 /* Sources */,
+				D10057AA1C9C670F00373124 /* Frameworks */,
+				D10057AB1C9C670F00373124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnglishForKids;
+			productName = EnglishForKids;
+			productReference = D10057AD1C9C670F00373124 /* EnglishForKids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D10057C31C9C670F00373124 /* EnglishForKidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10057D01C9C670F00373124 /* Build configuration list for PBXNativeTarget "EnglishForKidsTests" */;
+			buildPhases = (
+				D10057C01C9C670F00373124 /* Sources */,
+				D10057C11C9C670F00373124 /* Frameworks */,
+				D10057C21C9C670F00373124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10057C61C9C670F00373124 /* PBXTargetDependency */,
+			);
+			name = EnglishForKidsTests;
+			productName = EnglishForKidsTests;
+			productReference = D10057C41C9C670F00373124 /* EnglishForKidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10057A51C9C670F00373124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Panajotis Maroungas";
+				TargetAttributes = {
+					D10057AC1C9C670F00373124 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D10057C31C9C670F00373124 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D10057AC1C9C670F00373124;
+					};
+				};
+			};
+			buildConfigurationList = D10057A81C9C670F00373124 /* Build configuration list for PBXProject "EnglishForKids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10057A41C9C670F00373124;
+			productRefGroup = D10057AE1C9C670F00373124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10057AC1C9C670F00373124 /* EnglishForKids */,
+				D10057C31C9C670F00373124 /* EnglishForKidsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10057AB1C9C670F00373124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10057BE1C9C670F00373124 /* LaunchScreen.storyboard in Resources */,
+				D10057BB1C9C670F00373124 /* Assets.xcassets in Resources */,
+				D10057B61C9C670F00373124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10057C21C9C670F00373124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10057A91C9C670F00373124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10057B91C9C670F00373124 /* EnglishForKids.xcdatamodeld in Sources */,
+				D10057D51C9DDAC400373124 /* EFKGameViewController.swift in Sources */,
+				D10057B31C9C670F00373124 /* ViewController.swift in Sources */,
+				D10057D81C9EF13200373124 /* EFKConstants.swift in Sources */,
+				D10057B11C9C670F00373124 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10057C01C9C670F00373124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10057C91C9C670F00373124 /* EnglishForKidsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D10057C61C9C670F00373124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10057AC1C9C670F00373124 /* EnglishForKids */;
+			targetProxy = D10057C51C9C670F00373124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D10057B41C9C670F00373124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10057B51C9C670F00373124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D10057BC1C9C670F00373124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10057BD1C9C670F00373124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D10057CB1C9C670F00373124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D10057CC1C9C670F00373124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D10057CE1C9C670F00373124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnglishForKids/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.EnglishForKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D10057CF1C9C670F00373124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnglishForKids/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.EnglishForKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D10057D11C9C670F00373124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnglishForKidsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.EnglishForKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishForKids.app/EnglishForKids";
+			};
+			name = Debug;
+		};
+		D10057D21C9C670F00373124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnglishForKidsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.EnglishForKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishForKids.app/EnglishForKids";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10057A81C9C670F00373124 /* Build configuration list for PBXProject "EnglishForKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10057CB1C9C670F00373124 /* Debug */,
+				D10057CC1C9C670F00373124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10057CD1C9C670F00373124 /* Build configuration list for PBXNativeTarget "EnglishForKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10057CE1C9C670F00373124 /* Debug */,
+				D10057CF1C9C670F00373124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D10057D01C9C670F00373124 /* Build configuration list for PBXNativeTarget "EnglishForKidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10057D11C9C670F00373124 /* Debug */,
+				D10057D21C9C670F00373124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D10057B71C9C670F00373124 /* EnglishForKids.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D10057B81C9C670F00373124 /* EnglishForKids.xcdatamodel */,
+			);
+			currentVersion = D10057B81C9C670F00373124 /* EnglishForKids.xcdatamodel */;
+			path = EnglishForKids.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D10057A51C9C670F00373124 /* Project object */;
+}

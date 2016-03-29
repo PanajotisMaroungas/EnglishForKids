@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EnglishForKids" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K22-Va-LNx">
+                                <rect key="frame" x="277" y="285" width="47" height="30"/>
+                                <state key="normal" title="START"/>
+                                <connections>
+                                    <segue destination="Low-U9-w1x" kind="show" id="rML-SV-f0b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K22-Va-LNx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D6e-As-VbK"/>
+                            <constraint firstItem="K22-Va-LNx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="I4L-C7-iwe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="361" y="387"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="luq-Te-9Is">
+            <objects>
+                <viewController id="Low-U9-w1x" customClass="EFKGameViewController" customModule="EnglishForKids" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b9g-WO-8fj"/>
+                        <viewControllerLayoutGuide type="bottom" id="t1N-zd-RAT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4aX-89-yfI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rn7-zY-AKb">
+                                <rect key="frame" x="48" y="97" width="505" height="116"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cjr-uK-uD5">
+                                        <rect key="frame" x="0.0" y="0.0" width="505" height="116"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="Cjr-uK-uD5" firstAttribute="leading" secondItem="rn7-zY-AKb" secondAttribute="leading" id="6hY-4P-Jpa"/>
+                                    <constraint firstItem="Cjr-uK-uD5" firstAttribute="centerX" secondItem="rn7-zY-AKb" secondAttribute="centerX" id="97R-fJ-alz"/>
+                                    <constraint firstAttribute="trailing" secondItem="Cjr-uK-uD5" secondAttribute="trailing" id="OKk-tA-LP3"/>
+                                    <constraint firstItem="Cjr-uK-uD5" firstAttribute="centerY" secondItem="rn7-zY-AKb" secondAttribute="centerY" id="a3R-j6-z9P"/>
+                                    <constraint firstItem="Cjr-uK-uD5" firstAttribute="top" secondItem="rn7-zY-AKb" secondAttribute="top" id="hzO-Z6-9hu"/>
+                                    <constraint firstAttribute="bottom" secondItem="Cjr-uK-uD5" secondAttribute="bottom" id="vnv-7d-T6y"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="Low-U9-w1x" id="JlL-n7-BCn"/>
+                                    <outletCollection property="gestureRecognizers" destination="C63-v5-mTI" appends="YES" id="QVP-un-fMz"/>
+                                    <outletCollection property="gestureRecognizers" destination="aot-FA-LtM" appends="YES" id="phK-LB-LmT"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="t1N-zd-RAT" firstAttribute="top" secondItem="rn7-zY-AKb" secondAttribute="bottom" constant="387" id="Gfm-7G-rZv"/>
+                            <constraint firstItem="rn7-zY-AKb" firstAttribute="top" secondItem="b9g-WO-8fj" secondAttribute="bottom" constant="77" id="J5d-1D-PFe"/>
+                            <constraint firstItem="rn7-zY-AKb" firstAttribute="leading" secondItem="4aX-89-yfI" secondAttribute="leadingMargin" constant="28" id="UrT-Z1-oSD"/>
+                            <constraint firstItem="rn7-zY-AKb" firstAttribute="centerX" secondItem="4aX-89-yfI" secondAttribute="centerX" id="o1s-f6-a7e"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="defaultImageView" destination="Cjr-uK-uD5" id="DjF-9d-IGq"/>
+                        <outlet property="topScrollView" destination="rn7-zY-AKb" id="oI4-BE-JYF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xqa-R3-XeS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="C63-v5-mTI">
+                    <connections>
+                        <action selector="swipeRight:" destination="Low-U9-w1x" id="a7i-VF-r2k"/>
+                        <outlet property="delegate" destination="Low-U9-w1x" id="fz8-IB-uv6"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="aot-FA-LtM">
+                    <connections>
+                        <action selector="swipeLeft:" destination="Low-U9-w1x" id="kRS-LP-xIO"/>
+                        <outlet property="delegate" destination="Low-U9-w1x" id="nLD-32-sqd"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="971" y="387"/>
+        </scene>
+    </scenes>
+</document>
